@@ -348,6 +348,12 @@ body {
     margin: auto;
 }
 
+.diagram img{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
 .diagram-svg{
   position: absolute;
   inset: 0;
@@ -433,9 +439,8 @@ tr:nth-child(even) {
 }
 
 .product img{
-    width: 250px;
-    height: auto;
-    display: block;
+    height: 160px;
+    width: auto;
 }
 
 .product p{
@@ -449,6 +454,14 @@ tr:nth-child(even) {
       color :#D65A31;
       justify-content: center;
       margin-top: 80px;
+}
+.list-container-paragraph {
+  display: flex;
+  gap: 60px; /* ระยะห่างระหว่าง 2 ฝั่ง */
+  color :#D65A31;
+  justify-content: flex-start;
+  margin-top: 80px;
+  padding-left: 120px; /* เว้นจากขอบซ้าย */
 }
 .list-container ul li{
   list-style-type: disc;
@@ -486,5 +499,16 @@ tr:nth-child(even) {
     background: black;
     border-radius: 50%;
   }
+
+  .box_text {
+    fill: none;
+    stroke: #D65A31;
+    stroke-width: 4;
+}
+
+.connector {
+    stroke: #D65A31;
+    stroke-width: 5;
+}
 
 
